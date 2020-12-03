@@ -12,7 +12,7 @@ pip install -r requirements.txt
 python main.py <model_name> --dataset <path_to_dataset> --save <path_to_save_weights_and_losses>
 ```
 
-An exmaple might be,
+An example might be,
 
 ```sh
 python main.py hierarchial --dataset drive/MyDrive/DASHlink_multiclass_all_ML.npz --save .
@@ -21,7 +21,7 @@ python main.py hierarchial --dataset drive/MyDrive/DASHlink_multiclass_all_ML.np
 ## Infer models
 
 ```sh
-python main.py --mode test --dataset <path_to_dataset> --weights <path_to_the_weights_location>
+python main.py hierarchial --mode test --dataset <path_to_dataset> --weights <path_to_the_weights_location>
 ```
 
 ## Artififacts
